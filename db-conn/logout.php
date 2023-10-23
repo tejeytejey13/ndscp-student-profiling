@@ -1,0 +1,9 @@
+<?php
+	session_start();
+	session_destroy();
+    unset($_SESSION["id"]);
+    unset($_SESSION["lname"]);
+    unset($_SESSION["fname"]);
+    unset($_SESSION["course"]);
+    header("Location:../index.php");
+?>
