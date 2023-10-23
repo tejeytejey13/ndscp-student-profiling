@@ -72,7 +72,8 @@ if($result == $course){
                                             $courseid = $row['course_id'];
 
                                             $date = date('F j, Y', strtotime($birth));
-
+                                            $status = $row['status'];
+                                            if($status == 'Enrolled'){
                                         ?>
                                         <tr>
                                             <td>
@@ -94,7 +95,7 @@ if($result == $course){
                                             </td>
 
                                         </tr>
-                                        <?php } ?>
+                                        <?php } }?>
                                     </tbody>
                                 </table>
                             </div>

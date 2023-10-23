@@ -71,7 +71,8 @@ if($result == $course){
 
                                             $full = $fname . ' ' . $mname . ' ' . $lname;
                                             $date = date('F j, Y', strtotime($birth));
-
+                                            $status = $row['status'];
+                                            if($status == 'Enrolled'){
                                         ?>
                                         <tr>
                                             <td>
@@ -90,7 +91,7 @@ if($result == $course){
                                                     onclick="view(<?php echo $id ?>)">View</button></td>
 
                                         </tr>
-                                        <?php } ?>
+                                        <?php }} ?>
                                     </tbody>
                                 </table>
                             </div>

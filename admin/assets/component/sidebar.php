@@ -99,7 +99,7 @@ if(isset($_SESSION['id'])){
 
                         <a class="nav-link " href="adviser.php">
                             <div class="sb-nav-link-icon"><i class="fa-solid fa-user fa-lg"></i></div>
-                            Adviser
+                            Department Head
                         </a>
                         <a class="nav-link collapsed" href="" data-bs-toggle="collapse"
                             data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">

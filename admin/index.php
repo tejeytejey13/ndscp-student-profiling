@@ -66,7 +66,7 @@
 
                         ?>
                         <div class="pie-container">
-                            <div class="pie" style="width: 700px; margin: 0 auto;">
+                            <div class="pie" style="width: 900px; margin: 0 auto;">
                                 <Strong>
                                     Student Enrolled in Notre Dame Siena College of Polomolok
                                 </Strong>
@@ -160,12 +160,6 @@
 
     }
 
-    /* .row{
-        position: absolute;
-        right: 0;
-        margin-top: 5%;
-    } */
-
     .card:hover {
         transform: scale(1.1);
     }
@@ -180,15 +174,6 @@
         right: 1;
         margin-top: 1.5%;
     }
-
-    /* .bg-container {
-        position: absolute;
-        top: 0;
-        right: 0;
-        left: 0;
-        margin-top: 26%;
-        margin-left: 80%;
-    } */
 
     .container-fluid {
         max-width: 100%;

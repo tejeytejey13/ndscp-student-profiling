@@ -14,7 +14,7 @@ $result = mysqli_query($conn, $query);
             <div class="container-fluid px-4">
                 <h1 class="mt-4">Dashboard</h1>
                 <ol class="breadcrumb mb-4">
-                    <li class="breadcrumb-item active">Male Student</li>
+                    <li class="breadcrumb-item active">All Students</li>
                 </ol>
                 <main>
                     <div class="container-fluid px-6">

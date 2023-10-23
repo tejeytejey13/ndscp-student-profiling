@@ -72,13 +72,14 @@ $query = "SELECT * FROM fillup INNER JOIN course ON fillup.course_name = course.
                                                 $fatheroc = $row['foccupation'];
                                                 $mother = $row['mother_name'];
                                                 $motheroc = $row['moccupation'];
-    
+                                                $status = $row['status'];
+
                                                 $full = $fname . ' ' . $mname . ' ' . $lname;
                                            
                                                 $date = date('F j, Y', strtotime($birth));
 
 
-                                            if($gender !== 'Male'){
+                                            if($gender !== 'Male' && $status == 'Enrolled'){
                                             ?>
                                         <tr>
                                             <td>

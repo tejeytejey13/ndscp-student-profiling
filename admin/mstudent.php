@@ -63,8 +63,9 @@ $result = mysqli_query($conn, $query);
                                             $fatheroc = $row['foccupation'];
                                             $mother = $row['mother_name'];
                                             $motheroc = $row['moccupation'];
+                                            $status = $row['status'];
 
-                                            if ($gender !== 'Female') {
+                                            if ($gender !== 'Female' && $status == 'Enrolled') {
                                         ?>
                                         <tr>
                                             <td>

@@ -20,7 +20,7 @@ $query = "SELECT * FROM fillup INNER JOIN course ON fillup.course_name = course.
                 <h1 class="mt-4">Dashboard</h1>
                 <ol class="breadcrumb mb-4">
                     <li class="breadcrumb-item active">Male Students
-                        
+
                     </li>
                 </ol>
                 <main>
@@ -78,9 +78,9 @@ $query = "SELECT * FROM fillup INNER JOIN course ON fillup.course_name = course.
                                                 $full = $fname . ' ' . $mname . ' ' . $lname;
                                                 $date = date('F j, Y', strtotime($birth));
 
-                                        
+                                                $status = $row['status'];
 
-                                            if($gender !== 'Female'){
+                                                if ($gender !== 'Female' && $status == 'Enrolled') {
                                             ?>
                                         <tr>
                                             <td>
